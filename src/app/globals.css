@@ -4116,3 +4116,10 @@ p.copy_right {
     border-bottom: 0;
   }
 }
+@media (max-width: 768px) {
+  .fact_sheet_card {
+    width: 250px;
+    margin: 10px;
+    /* Centers the card */
+  }
+}
