@@ -365,24 +365,24 @@ export default function Header() {
                                                     </a>
                                                     <ul className="sub-menu">
                                                         <li>
-                                                            <Link href="/about/about-the-party" className="text-decoration-none">
+                                                            <Link href={`/${language}/about/about-the-party`} className="text-decoration-none">
                                                                 About the Party
                                                             </Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="/about/party-ideology" className="text-decoration-none">
+                                                            <Link href={`/${language}/about/party-ideology`} className="text-decoration-none">
                                                                 Party Ideology
                                                             </Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="/about/party-constitution" className="text-decoration-none">
+                                                            <Link href={`/${language}/about/party-constitution`} className="text-decoration-none">
                                                                 Party Constitution
                                                             </Link>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <Link href="/sangathan" className="text-decoration-none menu-item-has-children">
+                                                    <Link href={`/${language}/sangathan`} className="text-decoration-none menu-item-has-children">
                                                         Sangathan<i className="dropdown"></i>
                                                     </Link>
                                                     <ul className="sub-menu">
@@ -454,7 +454,7 @@ export default function Header() {
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <Link href="/gallery" className="text-decoration-none menu-item-has-children">
+                                                    <Link href={`/${language}/gallery`} className="text-decoration-none menu-item-has-children">
                                                         Gallery
                                                     </Link>
                                                     {/* <ul className="sub-menu">
@@ -468,12 +468,12 @@ export default function Header() {
                                                     </a>
                                                     <ul className="sub-menu">
                                                         <li>
-                                                            <Link href="/media/video-gallery" className="text-decoration-none">
+                                                            <Link href={`/${language}//media/video-gallery`} className="text-decoration-none">
                                                                 Video Gallery
                                                             </Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="/media/press-releases" className="text-decoration-none">
+                                                            <Link href={`/${language}//media/press-releases`} className="text-decoration-none">
                                                                 Press Releases
                                                             </Link>
                                                         </li>
