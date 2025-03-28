@@ -75,7 +75,7 @@ export default function MediaSection() {
                             <div className="social_content-box social_active-content-box">
                                 <div className="row">
                                     {/* Facebook Embed */}
-                                    <div className="col-sm-12 col-md-4 col-lg-4">
+                                    <div className="col-sm-12 col-md-4 col-lg-4 mt-4 mt-md-1">
                                         <div className="pr_social_widget">
                                             <div className="pr_social_icon">
                                                 <i className="bi bi-facebook" />
@@ -111,7 +111,7 @@ export default function MediaSection() {
                                     </div>
 
                                     {/* Instagram Embed */}
-                                    <div className="col-sm-12 col-md-4 col-lg-4">
+                                    <div className="col-sm-12 col-md-4 col-lg-4 mt-4 mt-md-1">
                                         <div className="pr_social_widget">
                                             <div className="pr_social_icon">
                                                 <i className="bi bi-instagram" />
@@ -132,7 +132,7 @@ export default function MediaSection() {
                                     </div>
 
                                     {/* Twitter (X) Embed */}
-                                    <div className="col-sm-12 col-md-4 col-lg-4">
+                                    <div className="col-sm-12 col-md-4 col-lg-4 mt-4 mt-md-1">
                                         <div className="pr_social_widget">
                                             <div className="pr_social_icon">
                                                 <img src="assets/img/x-social.svg" alt="X" />
