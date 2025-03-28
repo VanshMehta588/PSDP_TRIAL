@@ -262,7 +262,7 @@ export default function DonationPage() {
         customer_email: email,
         customer_phone: number,
       },
-      redirect_url: `http://localhost:3000/en/donation?order=${orderID}`,
+      redirect_url: `https://psdp-trial.vercel.app/en/donation?order=${orderID}`,
       order_meta: {
         notify_url: "https://webhook.site/58b2f225-173c-42da-ae59-fcc3b17858ce",
       },
