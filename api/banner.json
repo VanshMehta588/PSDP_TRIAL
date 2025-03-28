@@ -1,0 +1,216 @@
+{
+    "banner": [
+        {
+            "id": "1",
+            "imageUrl": "/assets/img/slide1.jpg"
+        },
+        {
+            "id": "2",
+            "imageUrl": "/assets/img/slide2.jpg"
+        },
+        {
+            "id": "3",
+            "imageUrl": "/assets/img/slide3.jpg"
+        },
+        {
+            "id": "4",
+            "imageUrl": "/assets/img/slide4.jpg"
+        },
+        {
+            "id": "5",
+            "imageUrl": "/assets/img/slide5.jpg"
+        }
+    ],
+    "motives": [
+        {
+            "id": "1",
+            "imageUrl": "assets/img/banner_1.jpg",
+            "link": "https://www.youtube.com/embed/9smpXAB289SpFP79"
+        },
+        {
+            "id": "2",
+            "imageUrl": "assets/img/banner_2.jpg",
+            "link": "https://www.youtube.com/embed/0O2aH4XLbto?si=65RHrq01PUC8YP69"
+        },
+        {
+            "id": "3",
+            "imageUrl": "assets/img/banner_3.jpg",
+            "link": "https://youtu.be/0O2aH4XLbto?si=p3IcKZ5vRgvLu0j2"
+        },
+        {
+            "id": "4",
+            "imageUrl": "assets/img/banner_4.jpg",
+            "link": "https://youtu.be/0O2aH4XLbto?si=p3IcKZ5vRgvLu0j2"
+        },
+        {
+            "id": "5",
+            "imageUrl": "assets/img/banner_5.jpg",
+            "link": "https://youtu.be/0O2aH4XLbto?si=p3IcKZ5vRgvLu0j2"
+        }
+    ],
+    "inspiration": [
+        {
+            "id": "1",
+            "name": "SARDAR PATEL",
+            "title": "Former Deputy Prime Minister of India",
+            "imageUrl": "assets/img/sardar_patel.png"
+        },
+        {
+            "id": "2",
+            "name": "BABASAHEB AMBEDKAR",
+            "title": "Former Minister of Law and Justice of India",
+            "imageUrl": "assets/img/baba_shaheb_am.png"
+        },
+        {
+            "id": "3",
+            "name": "MAHARANA PRATAP",
+            "title": "King and bravest Rajput rulers",
+            "imageUrl": "assets/img/maharana_pratap.png"
+        },
+        {
+            "id": "4",
+            "name": "BIRSA MUNDA",
+            "title": "Tribal independence activist",
+            "imageUrl": "assets/img/birsa_munda.png"
+        }
+    ],
+
+    "volunteer": [
+        {
+            "id": "vol1",
+            "name": "Shankar Singh Vaghela",
+            "title": "(Former Member of Rajya Sabha and Former CM of Gujarat)",
+            "imageUrl": "../assets/img/shankar_singh_vaghela.png"
+        },
+        {
+            "id": "vol2",
+            "name": "Shri Parthesh Patel",
+            "title": "(Former Member of Gujarat 2017-2023)",
+            "imageUrl": "../assets/img/Parthesh-patel.png"
+        },
+        {
+            "id": "vol3",
+            "name": "Shri Yuvraj Sinh",
+            "title": "(Former Member of Rajya Sabha)",
+            "imageUrl": "../assets/img/yuvi.png"
+        },
+        {
+            "id": "vol4",
+            "name": "Shri Riddhiraj Sinh",
+            "title": "(Former Member of Rajya Sabha and Former CM of Gujarat)",
+            "imageUrl": "../assets/img/RIDDHIRAJ.png"
+        },
+        {
+            "id": "vol5",
+            "name": "Shri Abhisheksinh Joshi",
+            "title": "(Former MLA of Gujarat Junagadh 2017-2025)",
+            "imageUrl": "../assets/img/aj.png"
+        },
+        {
+            "id": "vol6",
+            "name": "Shri Saurabh Vaghela",
+            "title": "(Former CM of Gujarat 2023-2566)",
+            "imageUrl": "../assets/img/saurabh.png"
+        }
+    ],
+    "factSheet": [
+        {
+            "id": "1",
+            "title": "Irregularities and corruption in government hospitals",
+            "description": "Serious negligence is being seen in the care of patients in many government hospitals.",
+            "imageUrl": "assets/img/20955135_s_aspera.jpg",
+            "link": "#"
+        },
+        {
+            "id": "2",
+            "title": "Scam worth crores of rupees in Chhota Udepur Health Department",
+            "description": "Scams in the health department are continuously increasing. According to ABP Live.",
+            "imageUrl": "assets/img/ed3284f056eaf4ad3c8fde7ef0e53d2c169487642615078_origina.jpg",
+            "link": "#"
+        },
+        {
+            "id": "3",
+            "title": "Banaskantha Health Department Salary Scam",
+            "description": "According to a report by Bombay Samachar, a case of corruption.",
+            "imageUrl": "assets/img/content_image_a4adf7c0-3ca1-4d18-8f51-40acf183b885.jpg",
+            "link": "#"
+        },
+        {
+            "id": "4",
+            "title": "PMJAY Card Scam – Failure of Health Department",
+            "description": "According to Gujarat First, irregularities have come to light in many districts of Gujarat.",
+            "imageUrl": "assets/img/72219845.cms.jpg",
+            "link": "#"
+        },
+        {
+            "id": "5",
+            "title": "Shortage of MBBS doctors in Gujarat",
+            "description": "According to The Print, there is a severe shortage of MBBS doctors in rural areas of the state.",
+            "imageUrl": "assets/img/1616776045898.jpg-org.jpg",
+            "link": "#"
+        },
+        {
+            "id": "6",
+            "title": "Serious epidemics – system failure",
+            "description": "According to The Hindu, more than 73 people have died in Gujarat due to encephalitis.",
+            "imageUrl": "assets/img/2024-07-31T080217Z_1218410979_RC2469ALZY3Z_RTRMADP_3_INDIA-VIRUS.jpg",
+            "link": "#"
+        },
+        {
+            "id": "7",
+            "title": "Another scam in Mehsana Health Department",
+            "description": "According to Mantavya News, another major scam has come to light in the Mehsana Health.",
+            "imageUrl": "assets/img/Beginners-guide-to-2024-09-24T203112.jpg",
+            "link": "#"
+        },
+        {
+            "id": "8",
+            "title": "RTI reveals – large-scale irregularities in Ahmedabad hospitals",
+            "description": "According to VTV Gujarati, evidence obtained through RTI shows.",
+            "imageUrl": "assets/img/kidney-hospital02.jpg",
+            "link": "#"
+        }
+    ],
+    "voice": [
+        {
+            "id": "1",
+            "imageUrl": "assets/img/banner_1.jpg",
+            "videoUrl": "https://www.youtube.com/embed/0O2aH4XLbto?si=65RHrq01PUC8YP69"
+        },
+        {
+            "id": "2",
+            "imageUrl": "assets/img/banner_2.jpg",
+            "videoUrl": "https://www.youtube.com/embed/0O2aH4XLbto?si=65RHrq01PUC8YP69"
+        },
+        {
+            "id": "3",
+            "imageUrl": "assets/img/banner_3.jpg",
+            "videoUrl": "https://www.youtube.com/embed/0O2aH4XLbto?si=65RHrq01PUC8YP69"
+        },
+        {
+            "id": "4",
+            "imageUrl": "assets/img/banner_4.jpg",
+            "videoUrl": "https://www.youtube.com/embed/0O2aH4XLbto?si=65RHrq01PUC8YP69"
+        },
+        {
+            "id": "5",
+            "imageUrl": "assets/img/banner_5.jpg",
+            "videoUrl": "https://www.youtube.com/embed/0O2aH4XLbto?si=65RHrq01PUC8YP69"
+        },
+        {
+            "id": "6",
+            "imageUrl": "assets/img/banner_6.jpg",
+            "videoUrl": "https://www.youtube.com/embed/0O2aH4XLbto?si=65RHrq01PUC8YP69"
+        },
+        {
+            "id": "7",
+            "imageUrl": "assets/img/banner_7.jpg",
+            "videoUrl": "https://www.youtube.com/embed/0O2aH4XLbto?si=65RHrq01PUC8YP69"
+        },
+        {
+            "id": "8",
+            "imageUrl": "assets/img/banner_8.jpg",
+            "videoUrl": "https://www.youtube.com/embed/0O2aH4XLbto?si=65RHrq01PUC8YP69"
+        }
+    ]
+}
