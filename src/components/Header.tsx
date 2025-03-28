@@ -354,7 +354,7 @@ export default function Header() {
                                         <div className={`mobile-home-menu mobile-menu-tab ${activeTab === "home" ? "active" : ""}`}>
                                             <ul className="navigation_menu">
                                                 <li>
-                                                    <Link className="text-decoration-none" href="/">
+                                                    <Link className="text-decoration-none" href={`/${language}`}>
                                                         Praja Shakti
                                                     </Link>
                                                 </li>
