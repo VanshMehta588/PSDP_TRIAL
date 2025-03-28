@@ -22,8 +22,8 @@ async function getData(locale: string) {
   const lang = locale === "gu" ? "guj" : "eng";
 
   try {
-    const apiUrl = process.env.API_BASE_URL || "http://192.168.1.5:8022";
-    const res = await fetch(`${apiUrl}/api/HomeAll?lang=${lang}`, { cache: "no-store" });
+    const apiUrl = process.env.NEXT_PUBLIC_REFERRED_MEMBERS_API_URL;
+    const res = await fetch(`${apiUrl}HomeAll?lang=${lang}`, { cache: "no-store" });
 
     if (!res.ok) throw new Error("Failed to fetch data");
     const data = await res.json();
