@@ -88,7 +88,7 @@ export default function Screen1({ formData, updateFormData, onNext }: Screen1Pro
 
   async function getState() {
     try {
-      const res = await fetch("http://192.168.1.5:8022/api/state", { cache: "no-store" })
+      const res = await fetch(`${process.env.NEXT_PUBLIC_REFERRED_MEMBERS_API_URL}state`, { cache: "no-store" })
       if (!res.ok) throw new Error("Failed to fetch data")
 
       const dt = await res.json()
@@ -111,7 +111,7 @@ export default function Screen1({ formData, updateFormData, onNext }: Screen1Pro
 
   async function getDistrict(state_id: number) {
     try {
-      const res = await fetch(`http://192.168.1.5:8022/api/district?state_id=${state_id}`, { cache: "no-store" })
+      const res = await fetch(`${process.env.NEXT_PUBLIC_REFERRED_MEMBERS_API_URL}district?state_id=${state_id}`, { cache: "no-store" })
       if (!res.ok) throw new Error("Failed to fetch districts")
 
       const dt = await res.json()
@@ -134,7 +134,7 @@ export default function Screen1({ formData, updateFormData, onNext }: Screen1Pro
 
   async function getAssembly(district_id: number) {
     try {
-      const res = await fetch(`http://192.168.1.5:8022/api/assemblyConstituencey?district_id=${district_id}`, { cache: "no-store" })
+      const res = await fetch(`${process.env.NEXT_PUBLIC_REFERRED_MEMBERS_API_URL}assemblyConstituencey?district_id=${district_id}`, { cache: "no-store" })
       if (!res.ok) throw new Error("Failed to fetch districts")
 
       const dt = await res.json()
@@ -180,7 +180,7 @@ export default function Screen1({ formData, updateFormData, onNext }: Screen1Pro
 
     const token = sessionStorage.getItem("auth_token");
 
-    fetch("http://192.168.1.5:8022/api/updateprofile", {
+    fetch(`${process.env.NEXT_PUBLIC_REFERRED_MEMBERS_API_URL}updateprofile`, {
       method: "POST",
       headers: { Authorization: `Bearer ${token}` },
       body: formdata,

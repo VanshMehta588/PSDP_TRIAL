@@ -52,7 +52,7 @@ export default function Screen3({ formData, updateFormData, onNext, onPrevious }
 
     const token = sessionStorage.getItem("auth_token");
 
-    fetch("http://192.168.1.5:8022/api/updateprofile", {
+    fetch(`${process.env.NEXT_PUBLIC_REFERRED_MEMBERS_API_URL}updateprofile`, {
       method: "POST",
       headers: { "Authorization": `Bearer ${token}` },
       body: formdata,

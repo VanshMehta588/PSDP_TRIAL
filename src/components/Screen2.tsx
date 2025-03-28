@@ -68,7 +68,7 @@ export default function Screen2({ formData, updateFormData, onNext, onPrevious }
 
     const token = sessionStorage.getItem("auth_token");
     try {
-      const response = await fetch("http://192.168.1.5:8022/api/updateprofile", {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_REFERRED_MEMBERS_API_URL}updateprofile`, {
         method: "POST",
         headers: {
           "Authorization": `Bearer ${token}`,
